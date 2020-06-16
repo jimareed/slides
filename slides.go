@@ -93,3 +93,14 @@ func Write(deck SlideDeck, path string) error {
 
 	return nil
 }
+
+func ToHtml(deck SlideDeck) (string, error) {
+
+	if len(deck.Slides) > 0 {
+		content, err := drawing.ToSvg(deck.Slides[0].Drawing)
+		if err == nil {
+			return content, nil
+		}
+	}
+	return "", nil
+}
