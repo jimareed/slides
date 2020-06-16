@@ -19,7 +19,7 @@ func TestRead(t *testing.T) {
 
 	d := sd.Slides[0].Drawing
 
-	if d.Width != 800 || d.Height != 600 {
+	if d.Width != 900 || d.Height != 600 {
 		t.Log("Error, invalid drawing")
 		t.Fail()
 	}
