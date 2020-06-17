@@ -1,7 +1,7 @@
 {"width":900,"height":600,"rectWidth":90,"rectHeight":60,
  "shapes":[
-     {"x":40,"y":30,"width":240,"height":180,"type":""},
-     {"x":500,"y":30,"width":240,"height":180,"type":""},
-     {"x":500,"y":400,"width":240,"height":180,"type":""},
-     {"x":40,"y":400,"width":240,"height":180,"type":""}
+     {"x":40,"y":30,"width":240,"height":180,"type":"","desc":"","size":0},
+     {"x":500,"y":30,"width":240,"height":180,"type":"","desc":"","size":0},
+     {"x":500,"y":400,"width":240,"height":180,"type":"","desc":"","size":0},
+     {"x":40,"y":400,"width":240,"height":180,"type":"","desc":"","size":0}
 ]}
