@@ -4,4 +4,8 @@
      {"x":500,"y":30,"width":240,"height":180,"type":"","desc":"","size":0},
      {"x":500,"y":400,"width":240,"height":180,"type":"","desc":"","size":0},
      {"x":40,"y":400,"width":240,"height":180,"type":"","desc":"","size":0}
-]}
+],
+ "connectors":[
+     {"shape1":1,"shape2":2}
+]
+}
