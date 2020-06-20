@@ -54,7 +54,7 @@ func Read(path string) (SlideDeck, error) {
 		deck.Title = title
 	}
 
-	filename = path + "/00.draw"
+	filename = path + "/default.draw"
 	content, err := ioutil.ReadFile(filename)
 	if err != nil {
 		log.Fatal(err)
