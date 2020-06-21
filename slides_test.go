@@ -6,7 +6,7 @@ import (
 
 func TestRead(t *testing.T) {
 
-	sd, err := Read("./test/input")
+	sd, err := Read("./test/input", "default")
 	if err != nil {
 		t.Log("Read error")
 		t.Fail()
@@ -27,7 +27,7 @@ func TestRead(t *testing.T) {
 
 func TestToHtml(t *testing.T) {
 
-	sd, err := Read("./test/input")
+	sd, err := Read("./test/input", "default")
 	if err != nil {
 		t.Log("Read error")
 		t.Fail()
